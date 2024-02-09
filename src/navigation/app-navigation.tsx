@@ -1,4 +1,4 @@
-import { HomeScreen } from "@/screens";
+import { WeatherScreen } from "@/screens";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -9,9 +9,9 @@ export const AppNavigation = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Home"
+          name="Weather"
           options={{ headerShown: false }}
-          component={HomeScreen}
+          component={WeatherScreen}
         />
       </Stack.Navigator>
     </NavigationContainer>

@@ -1,9 +1,5 @@
-import { AppNavigation } from '@/navigation/app-navigation';
-import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { AppNavigation } from "@/navigation";
 
 export default function App() {
-  return (
-    <AppNavigation/>
-  );
-};
+  return <AppNavigation />;
+}

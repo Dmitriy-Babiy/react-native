@@ -3,11 +3,14 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
+      "@api/*": ["./src/api/*"],
       "@assets/*": ["./assets/*"],
       "@screens/*": ["src/screens/*"],
+      "@features/*": ["./src/features"],
       "@components/*": ["src/components/*"],
       "@navigation/*": ["src/navigation/*"]
-    }
+    },
+    "typeRoots": ["src/declaration.d.ts"]
   },
   "extends": "expo/tsconfig.base"
 }

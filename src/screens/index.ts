@@ -1,1 +1,1 @@
-export { default as HomeScreen } from "./home-screen";
+export { default as WeatherScreen } from "./weather-screen";
